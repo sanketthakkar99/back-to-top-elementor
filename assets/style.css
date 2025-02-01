@@ -1,0 +1,18 @@
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: none;
+    z-index: 9999;
+}
+
+.back-to-top[data-position="right"] {
+    right: 20px;
+}
+
+.back-to-top[data-position="left"] {
+    left: 20px;
+}
